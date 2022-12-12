@@ -2,7 +2,7 @@
 Game art for various sprites, tiles, etc.
 
 <details>
-<summary>Sprites</summary 
+  <summary>Sprites</summary> 
   
 ![SantaLeftIdle](https://user-images.githubusercontent.com/115670951/206982047-2d316cdb-4119-4290-a77d-42859fe98582.png)
   
