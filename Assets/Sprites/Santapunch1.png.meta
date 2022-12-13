@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 50c8c6d73a75fde47a630e225b5fccd1
+guid: 492a6494bc701ad4785038d1b401b7ef
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SantaIdle_0
+      name: Santapunch1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 55
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 605e8fc7416bc5c4fbca976653b6fbb4
-      internalID: -1352101892
+      spriteID: e88730a813f6ca242847f801a49c451b
+      internalID: -639677873
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SantaIdle_1
+      name: Santapunch1_1
       rect:
         serializedVersion: 2
-        x: 32
+        x: 55
         y: 0
-        width: 32
-        height: 32
+        width: 55
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf3528bec3f3aee4b9ee0a1f13ad433e
-      internalID: -1183108322
+      spriteID: 3d069b2f1abd9d8429b468116dc5954d
+      internalID: -1811949238
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SantaIdle_2
+      name: Santapunch1_2
       rect:
         serializedVersion: 2
-        x: 64
+        x: 110
         y: 0
-        width: 32
-        height: 32
+        width: 55
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5c2b509daf79da49a64e71651f2b3f8
-      internalID: -814500793
+      spriteID: e10e8cc0486447d4ba3cd710b8bf5b84
+      internalID: -239001098
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SantaIdle_3
+      name: Santapunch1_3
       rect:
         serializedVersion: 2
-        x: 96
+        x: 165
         y: 0
-        width: 32
-        height: 32
+        width: 55
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 088bbfd71df37324d84e3715382ab745
-      internalID: -1789088685
+      spriteID: 28737f405b47ddf4c990fd08a580ecbf
+      internalID: -1042810455
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SantaIdle_4
+      name: Santapunch1_4
       rect:
         serializedVersion: 2
-        x: 128
+        x: 220
         y: 0
-        width: 32
-        height: 32
+        width: 55
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b2c54a9ab43ce046b7a9aeb585b4f77
-      internalID: 1451672416
+      spriteID: a1a0e86102874a742bf07b40326de1bc
+      internalID: -282698437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SantaIdle_5
+      name: Santapunch1_5
       rect:
         serializedVersion: 2
-        x: 160
+        x: 275
         y: 0
-        width: 32
-        height: 32
+        width: 55
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,20 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 084c2e5c70650cf40acdb9a77cce7eb5
-      internalID: 1703743224
+      spriteID: a4025f86cbef0544180f52cda2583db9
+      internalID: 1695050769
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SantaIdle_6
+      name: Santapunch1_6
       rect:
         serializedVersion: 2
-        x: 192
+        x: 330
         y: 0
-        width: 32
-        height: 32
+        width: 55
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,20 +245,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef8c5de6d41985f4193566b1d1f46fee
-      internalID: 1211013051
+      spriteID: 7eb2893a671b6e644b97cbcb703f2e4e
+      internalID: -1997302850
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SantaIdle_7
+      name: Santapunch1_7
       rect:
         serializedVersion: 2
-        x: 224
+        x: 385
         y: 0
-        width: 32
-        height: 32
+        width: 55
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,20 +266,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78f5cda9439924e4daa6f36545d361aa
-      internalID: -695860638
+      spriteID: 6a59e59766a6c454ca01e09d2dd4a5ae
+      internalID: 1612291622
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SantaIdle_8
+      name: Santapunch1_8
       rect:
         serializedVersion: 2
-        x: 256
+        x: 440
         y: 0
-        width: 32
-        height: 32
+        width: 55
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,20 +287,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1062d18b4f1dba41ad886412e43b944
-      internalID: 1405554672
+      spriteID: f3fbee4965ceb73438dc1b1ffbca4c92
+      internalID: -1216309883
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SantaIdle_9
+      name: Santapunch1_9
       rect:
         serializedVersion: 2
-        x: 288
+        x: 495
         y: 0
-        width: 32
-        height: 32
+        width: 55
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -308,20 +308,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 776c1074df691534995601ff1cb677d0
-      internalID: -414904966
+      spriteID: 9c3526600803050438faf0e8c6aa9c2e
+      internalID: -92801690
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SantaIdle_10
+      name: Santapunch1_10
       rect:
         serializedVersion: 2
-        x: 320
+        x: 550
         y: 0
-        width: 32
-        height: 32
+        width: 55
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -329,8 +329,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7fae2b6de0d49c4cbbc3a64501fea3b
-      internalID: 1638336600
+      spriteID: 7030f04672412f949b2b69c7f8595be3
+      internalID: 1655346174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Santapunch1_11
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 0
+        width: 55
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f484e510be58643aeb46350478efc8
+      internalID: 107436812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Santapunch1_12
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 0
+        width: 55
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4213f8754b7815e4a9d3bcd7544b4820
+      internalID: 1900638071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Santapunch1_13
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 0
+        width: 55
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9a74d6dd28bbb4aadc3ca16965664c
+      internalID: -950644046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Santapunch1_14
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 0
+        width: 55
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cbe880455941e74491250972cfb511b
+      internalID: 1854349636
       vertices: []
       indices: 
       edges: []
@@ -346,17 +430,21 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SantaIdle_10: 1638336600
-      SantaIdle_4: 1451672416
-      SantaIdle_7: -695860638
-      SantaIdle_3: -1789088685
-      SantaIdle_8: 1405554672
-      SantaIdle_5: 1703743224
-      SantaIdle_2: -814500793
-      SantaIdle_9: -414904966
-      SantaIdle_0: -1352101892
-      SantaIdle_6: 1211013051
-      SantaIdle_1: -1183108322
+      Santapunch1_7: 1612291622
+      Santapunch1_4: -282698437
+      Santapunch1_1: -1811949238
+      Santapunch1_12: 1900638071
+      Santapunch1_9: -92801690
+      Santapunch1_3: -1042810455
+      Santapunch1_14: 1854349636
+      Santapunch1_10: 1655346174
+      Santapunch1_2: -239001098
+      Santapunch1_6: -1997302850
+      Santapunch1_0: -639677873
+      Santapunch1_13: -950644046
+      Santapunch1_5: 1695050769
+      Santapunch1_11: 107436812
+      Santapunch1_8: -1216309883
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
