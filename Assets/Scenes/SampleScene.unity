@@ -265,6 +265,7 @@ GameObject:
   - component: {fileID: 790204182}
   - component: {fileID: 790204181}
   - component: {fileID: 790204185}
+  - component: {fileID: 790204186}
   m_Layer: 0
   m_Name: Santa
   m_TagString: Untagged
@@ -401,6 +402,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpSpeed: 12
   moveSpeed: 7
+--- !u!95 &790204186
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 790204180}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b61ee5025a5b8be4086ca765d3e03990, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1557010161
 GameObject:
   m_ObjectHideFlags: 0
