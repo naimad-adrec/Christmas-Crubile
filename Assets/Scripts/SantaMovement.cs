@@ -7,18 +7,25 @@ public class SantaMovement : MonoBehaviour
     private Rigidbody2D rb;
     private SpriteRenderer sp;
     private Animator anim;
-    [SerializeField] private int jumpSpeed = 5;
-    [SerializeField] private int moveSpeed = 5;
+    private BoxCollider2D colls;
 
-    // Start is called before the first frame update
+    [SerializeField] private LayerMask jumpableGround;
+
+    [SerializeField] private float jumpSpeed = 5f;
+    [SerializeField] private float moveSpeed = 5f;
+    private int jumpCount = 0;
+
+    private enum MovementState {idle, running, jumping, falling};
+    private MovementState state = MovementState.idle;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         sp = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
+        colls = GetComponent<BoxCollider2D>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         float dirX = Input.GetAxisRaw("Horizontal");
@@ -27,26 +34,51 @@ public class SantaMovement : MonoBehaviour
 
         rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
 
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && IsGrounded())
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
+            jumpCount++;
         }
     }
 
     private void UpdateSantaAnimationState(float direction)
     {
-        if (direction > 0)
+        MovementState state;
+
+        if (direction > 0f)
         {
             sp.flipX = true;
+            state = MovementState.running;
         }
-        else if (direction < 0)
+        else if (direction < 0f)
         {
             sp.flipX = false;
+            state = MovementState.running;
+        }
+        else
+        {
+            state = MovementState.idle;
+        }
+
+        if(rb.velocity.y > 0.1f)
+        {
+            state = MovementState.jumping;
+        }
+        else if (rb.velocity.y < -0.1f)
+        {
+            state = MovementState.falling;
         }
 
         if (Input.GetKeyDown("e"))
         {
             anim.SetTrigger("isAttacking");
         }
+
+        anim.SetInteger("animState", (int) state);
+    }
+
+    private bool IsGrounded()
+    {
+        return Physics2D.BoxCast(colls.bounds.center, colls.bounds.size, 0f, Vector2.down, 0.1f, jumpableGround);
     }
 }
